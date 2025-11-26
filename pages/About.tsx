@@ -12,7 +12,7 @@ const About: React.FC = () => {
           <div className="relative">
             <div className="absolute -inset-4 border border-zinc-700 translate-x-4 translate-y-4 -z-10"></div>
             <img 
-              src="https://scontent.fkhi8-1.fna.fbcdn.net/v/t39.30808-6/586171260_122183052608512663_9151728751127118408_n.jpg?_nc_cat=103&ccb=1-7&_nc_sid=6ee11a&_nc_ohc=J7NgIx3OpJ0Q7kNvwEeiKK2&_nc_oc=AdlsN9eZQSqexXAgmfbb0g8rgq_KLT8niSZq0RdeJ3ZJcIKTFQfKm1BT7WcZOZNEiLU&_nc_zt=23&_nc_ht=scontent.fkhi8-1.fna&_nc_gid=39evZwvcNHwxvZh3cxYdqw&oh=00_AfjTClNq6k_I71OMDrwMNKmB-EdunJxnnxZNfQNF8wgQZg&oe=692CDB93" 
+              src="/profile.png" 
               alt="About Muhammad Eshareeb" 
               className="w-full h-auto grayscale hover:grayscale-0 transition-all duration-500 object-cover shadow-2xl"
             />

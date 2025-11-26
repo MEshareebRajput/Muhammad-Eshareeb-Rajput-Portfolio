@@ -26,9 +26,14 @@ const Contact: React.FC = () => {
     setErrorMessage('');
 
     try {
+      const email = PERSONAL_INFO.email ? PERSONAL_INFO.email.trim() : '';
+      if (!email) {
+        throw new Error("Configuration Error: Owner email is missing.");
+      }
+
       // Use the dedicated AJAX endpoint which guarantees JSON responses
       // This prevents the "Unexpected token <" error which occurs when the service redirects to an HTML page
-      const response = await fetch(`https://formsubmit.co/ajax/${PERSONAL_INFO.email.trim()}`, {
+      const response = await fetch(`https://formsubmit.co/ajax/${email}`, {
         method: "POST",
         headers: { 
           'Content-Type': 'application/json',
