@@ -24,8 +24,7 @@ export const SKILLS: Skill[] = [
   // TECH
   { name: "WordPress", level: 95, category: "Tech" },
   { name: "Shopify", level: 90, category: "Tech" },
-  { name: "MERN Stack", level: 60, category: "Tech" },
-
+  
   // MARKETING
   { name: "Digital Marketing", level: 92, category: "Marketing" },
   { name: "Social Media Management", level: 90, category: "Marketing" },
